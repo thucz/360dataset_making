@@ -82,3 +82,5 @@ python convert_cubemaps_mp.py
 python convert.py
 
 ```
+
+# Note: The dataset generate the random trajectories, which is not the same as our generated dataset.
