@@ -73,7 +73,7 @@ bash generate_hm3d_train.sh
 
 ```
 # change environment
-conda activate splatter360
+conda activate splat360
 
 # remember to set basedir and dataset_name
 python convert_cubemaps_mp.py
