@@ -1,4 +1,3 @@
-# Copyright (c) Facebook, Inc. and its affiliates. All rights reserved.
 
 def get_dataset(opt):
 
@@ -43,8 +42,5 @@ def get_dataset(opt):
         opt.scenes_dir = basedir #"/checkpoint/ow045820/data/replica/"
     else:
         raise NotImplementedError
-
-        
     from dataset_generation.configs.habitat_data import HabitatImageGenerator as Dataset
-
     return Dataset # unused

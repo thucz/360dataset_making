@@ -15,16 +15,11 @@ import math
 import multiprocessing
 
 down_rate = 1
-# from cutter import PerspectiveCutout
-# cutter = PerspectiveCutout()
 dataset_name = "replica"
 basedir = "/wudang_vuc_3dc_afs/chenzheng"
 dataset = dataset_name + "_dataset"
-# output_basedir = "/wudang_vuc_3dc_afs/chenzheng/" + dataset + "_pt"
-
 INPUT_IMAGE_DIR = Path(basedir + "/" + dataset)
 
-# OUTPUT_DIR = Path(output_basedir)
 
 # Target 100 MB per chunk.
 TARGET_BYTES_PER_CHUNK = int(1e8)
