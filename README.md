@@ -83,4 +83,4 @@ python convert.py
 
 ```
 
-# Note: The dataset generate the random trajectories, which is not the same as our generated dataset.
+# Note: The code generate the random trajectories, which is not the same as our generated dataset.
